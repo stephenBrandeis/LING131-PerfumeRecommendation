@@ -1,16 +1,19 @@
 # LING131-PerfumeRecommendation
 By Jingya Cao, Shixuan Wan, Siyuan Chen, Xin Shen,
 
-1. Background Information
+1. Background Information:
+
 For the people who want to buy the perfume, you will often find yourself overwhelmed by different kinds of perfumes when you search online. Even you search them based on certain filters, you still have to select one from several web pages by reading the long, unusual and highly descriptive introductions. Those poetic introductions describe the feelings emotionally. Those introductions even use a scene to describe the moment someone smells the perfume, which takes some time to understand. Picking the perfume by reading introductions is absolutely time-consuming. As a perfume customer who is confused by the introductions and want to find the right perfume in a short time, our perfume recommendation system is a good choice for them.
 
-2. Goals of the system
+2. Goals of the system:
+
 The aim of this system is to give 5 recommendations based on the description input, which increases the choosing efficiency. The special 
 corpus of the perfume is good for NLP. It contains the emotion, the feeling and the personality description. When the people input a 
 descriptive text, the model can return the perfume that matches the input text. What’s more, our system includes sentiment analysis. 
 The system can detect your likes and dislikes. 
 
-3. How to run
+3. How to run: 
+ 
  Module Requirement: 
     Scipy >=  1.3.0 
     Numpy >=1.16.0 
