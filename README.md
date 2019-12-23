@@ -8,11 +8,13 @@ descriptive introductions. Those poetic introductions describe the feelings emot
 the moment someone smells the perfume, which takes some time to understand. Picking the perfume by reading introductions is absolutely 
 time-consuming. As a perfume customer who is confused by the introductions and want to find the right perfume in a short time, our perfume
 recommendation system is a good choice for them.
+
 2. Goals of the system
 The aim of this system is to give 5 recommendations based on the description input, which increases the choosing efficiency. The special 
 corpus of the perfume is good for NLP. It contains the emotion, the feeling and the personality description. When the people input a 
 descriptive text, the model can return the perfume that matches the input text. What’s more, our system includes sentiment analysis. 
 The system can detect your likes and dislikes. 
+
 3. How to run
  Module Requirement: 
     Scipy >=  1.3.0 
@@ -22,6 +24,7 @@ The system can detect your likes and dislikes.
     Nltk >=3.4.0 
     Genism >=3.8.0 
     Sklearn > 0.21.0 
+    
  File Description
   get_data.py: A web scraping script to get the data frame of perfume source data. we have already scrape the data we need and store it 
   in the ‘perfume_data.pkl’ file so you do not have to scrape the data again. Simply load the data using ‘pickle.load’ function is fine.
